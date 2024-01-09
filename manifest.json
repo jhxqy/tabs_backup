@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Tabs Backup",
+    "description": "Tabs Backup",
+    "version": "1.0",
+    "action": {
+        "default_popup": "hello.html"
+    },
+    "permissions": [
+        "tabs",
+        "tabGroups",
+        "storage",
+        "windows",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
